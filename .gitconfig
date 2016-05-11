@@ -1,0 +1,19 @@
+[alias]
+	co = checkout
+	cp = cherry-pick
+	br = branch
+	ci = commit
+	st = status
+[user]
+	name = Adrov Igor
+	email = nucleartux@gmail.com
+[push]
+	default = simple
+[core]
+	excludesfile = /Users/nucleartux/.gitignore
+[url "https://"]
+	insteadOf = git://
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
